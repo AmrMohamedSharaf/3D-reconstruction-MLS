@@ -1,4 +1,4 @@
-![image](https://github.com/AmrMohamedSharaf/3D-reconstruction-MLS/assets/69557495/14cae6e4-8976-4953-827c-17c8055a9fa1)This algorithm solves the problemm of surface reconstruction using Moving Least Squares method 
+This algorithm solves the problemm of surface reconstruction using Moving Least Squares method 
 
 **Probelm** : Given an oriented point cloud data set S = {pi , ni}, we want to retrieve the surfce 
 - The implecit representation of the 3D model has constratins
