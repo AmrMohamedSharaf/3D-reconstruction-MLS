@@ -9,11 +9,11 @@ Given an oriented point cloud data set S = {pi , ni}, we want to retrieve the su
 
 **Step-1 Constrains Satisfaction :** We construction an implicit function F(x) with following conditions 1- For point x on the surface, the value of F(x) = 0 2- for any x = s+α for a point s on the surface , F(x) = s+α
 
-**Step-2 Implicit Surface ** : Given our implicit surface constraints , we can now build a system of linear equations for any point on the surface. this model can be represented as the sum over c =1 , wc⋅ϕ(∥x−c∥^2)
+**Step-2 Implicit Surface:** Given our implicit surface constraints , we can now build a system of linear equations for any point on the surface. this model can be represented as the sum over c =1 , wc⋅ϕ(∥x−c∥^2)
 
 ϕ is a kernel function. The weights w are used in a weighted least squares fitting process, where the contributions of nearby points are emphasized while those of more distant points are diminished. in our case ϕ is the windland function with center c. Thus the further points are for the center c the less dominant their entry. Thus our system is diagonally dominant
 
-**Step 3 - Iso Surfacing : ** Using the marching cube algorithm , we can retrieve the mesh 
+**Step 3 - Iso Surfacing:** Using the marching cube algorithm , we can retrieve the mesh 
 
 # Results
 
