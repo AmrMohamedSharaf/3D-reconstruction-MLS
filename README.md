@@ -3,9 +3,9 @@
 ## Problem 
 
 Given an oriented point cloud data set S = {pi , ni}, we want to retrieve the surfce:
-* 1. * -The implicit representation of the 3D model has constrains
-* 1. * -Point cloud data might contain noise and outliers
-* 1. * -For any S in F(x) where F(x) is the implicit function S must be guaranteed to be a manifold
+* 1.  -The implicit representation of the 3D model has constrains
+* 2. -Point cloud data might contain noise and outliers
+* 3. -For any S in F(x) where F(x) is the implicit function S must be guaranteed to be a manifold
 
 **Step-1 Constrains Satisfaction :** We construction an implicit function F(x) with following conditions 1- For point x on the surface, the value of F(x) = 0 2- for any x = s+α for a point s on the surface , F(x) = s+α
 
