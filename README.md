@@ -1,4 +1,4 @@
-# Surface reconstruction using Moving Least Squares method
+# Surface Reconstruction Using Moving Least Squares Method
 
 ## Problem 
 
@@ -7,7 +7,7 @@ Given an oriented point cloud data set S = {pi , ni}, we want to retrieve the su
 * 2. -Point cloud data might contain noise and outliers
 * 3. -For any S in F(x) where F(x) is the implicit function S must be guaranteed to be a manifold
 
-**Step-1 Constrains Satisfaction :** We construction an implicit function F(x) with following conditions 1- For point x on the surface, the value of F(x) = 0 2- for any x = s+α for a point s on the surface , F(x) = s+α
+**Step-1 Constrains Satisfaction :** We construct an implicit function F(x) with following conditions 1- For point x on the surface, the value of F(x) = 0 2- for any x = s+α for a point s on the surface , F(x) = s+α
 
 **Step-2 Implicit Surface:** Given our implicit surface constraints , we can now build a system of linear equations for any point on the surface. this model can be represented as the sum over c =1 , wc⋅ϕ(∥x−c∥^2)
 
